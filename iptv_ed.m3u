@@ -1,6 +1,6 @@
 #EXTM3U url-tvg="http://epg.one/epg2.xml.gz" m3uautoload=1 deinterlace=1 aspect-ratio=16:9 tvg-shift=0 cache=9966
-#------------------------------------ Р А З В Л Е К А Т Е Л Ь Н Ы Е ------------------------------------#
-#EXTINF:-1,ТНТ4
+#------------------------------------ TNT 4 ------------------------------------#
+#EXTINF:-1,ТНТ44444
 #EXTGRP:РАЗВЛЕКАТЕЛЬНЫЕ
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/variant.m3u8??
 
