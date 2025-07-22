@@ -1,64 +1,60 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/IPTVSHARED/iptv/refs/heads/main/epg_lite.xml.gz; https://raw.githubusercontent.com/IPTVSHARED/iptv/refs/heads/main/epg_lite_gabbarit.xml.gz"
-
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/IPTVSHARED/iptv/refs/heads/main/epg_lite.xml.gz; https://raw.githubusercontent.com/IPTVSHARED/iptv/refs/heads/main/epg_lite_gabbarit.xml.gz"
-
-#EXTINF:-1 tvg-id="no_epg" tvg-logo="https://raw.githubusercontent.com/IPTVSHARED/iptv/refs/heads/main/logo2.jpg" group-title="ИНФО", HTTPS://T.ME/SHARED_NEW
-https://raw.githubusercontent.com/IPTVSHARED/iptv/refs/heads/main/LOGO_FHD.mp4
 
 #------------------------------------ TNT 4 ------------------------------------#
 #EXTINF:-1,ТНТ4
-#EXTGRP:РАЗВЛЕКАТЕЛЬНЫЕ
+#EXTGRP:ТНТ4
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/variant.m3u8??
 
 #EXTINF:-1,ТНТ4 (+2)
-#EXTGRP:РАЗВЛЕКАТЕЛЬНЫЕ
+#EXTGRP:ТНТ4
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_2/variant.m3u8??
 #---http://s25617.cdn.ngenix.net/mdrm/CH_TNT4_2/variant.m3u8??
 
 #EXTINF:-1,ТНТ4 (+4)
-#EXTGRP:РАЗВЛЕКАТЕЛЬНЫЕ
+#EXTGRP:ТНТ4
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_4/variant.m3u8??
 #---http://s25617.cdn.ngenix.net/mdrm/CH_TNT4_4/variant.m3u8??
 
 #EXTINF:-1,ТНТ4 (+7)
-#EXTGRP:РАЗВЛЕКАТЕЛЬНЫЕ
+#EXTGRP:ТНТ4
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_7/variant.m3u8??
 #---http://s25617.cdn.ngenix.net/mdrm/CH_TNT4_7/variant.m3u8??
 
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТНТ4 (+2)
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="ТНТ4",ТНТ4 (+2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_2/variant.m3u8
 
 #EXTINF:-1,ТНТ4
-#EXTGRP:РАЗВЛЕКАТЕЛЬНЫЕ+
+#EXTGRP:ТНТ4
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/variant.m3u8
 
-#EXTINF:-1,ТНТ4 (+2)
+#EXTINF:-1,ТНТ4
 #EXTGRP:РАЗВЛЕКАТЕЛЬНЫЕ+
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_2/variant.m3u8
 #---http://s25617.cdn.ngenix.net/mdrm/CH_TNT4_2/variant.m3u8
 
 #EXTINF:-1,ТНТ4 (+4)
-#EXTGRP:РАЗВЛЕКАТЕЛЬНЫЕ+
+#EXTGRP:ТНТ4
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_4/variant.m3u8
 #---http://s25617.cdn.ngenix.net/mdrm/CH_TNT4_4/variant.m3u8
 
 #EXTINF:-1,ТНТ4 (+7)
-#EXTGRP:РАЗВЛЕКАТЕЛЬНЫЕ+
+#EXTGRP:ТНТ4
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_7/variant.m3u8
 #---http://s25617.cdn.ngenix.net/mdrm/CH_TNT4_7/variant.m3u8
 
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные",ТНТ4
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="ТНТ4",ТНТ4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/variant.m3u8
 
 #EXTINF:-1 tvg-id="tnt4" group-title="ТНТ4",ТНТ4 HD
 http://sgw.ott.tricolor.tv/streamingGateway/GetLivePlayList?source=TNT4.m3u8&serviceArea=MSK-SA-1&drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0MzIxOTAwOTMzMTI2NyIsImV4cCI6MTc1MzY2OTIzMiwiaHdpZCI6IjYwZmI5ZjQ2OTVjNWEzMTc4Mjc5ZmUyNzY3YTQxMzE4ODMwNTYwZjJiMTc4ODQ2ZmQ4NjAzNmQxMzMzMTdjYWYiLCJsYXN0X3JlcV9kYXRlIjoxNzUzMDY0NDMyLCJzZXNzaW9uX2lkIjoiOWVhMThlNjgzNTUxYjNiNWVlN2NmODUyMDgxOTE1OTgiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.UrItlXueVDYEF_nJqKOWyvUWlExsKVhJaxFgSZbBGPg
 
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТНТ4 (+2)
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="ТНТ4",ТНТ4 (+2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_2/variant.m3u8
 
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТНТ4 (+4)
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="ТНТ4",ТНТ4 (+4)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_4/variant.m3u8
