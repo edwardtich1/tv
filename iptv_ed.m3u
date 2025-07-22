@@ -29,7 +29,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_2/variant.m3u8
 #EXTGRP:ТНТ4
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/variant.m3u8
 
-#EXTINF:-1,ТНТ4
+#EXTINF:-1,ТНТ4 (+2)
 #EXTGRP:ТНТ4
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_2/variant.m3u8
 #---http://s25617.cdn.ngenix.net/mdrm/CH_TNT4_2/variant.m3u8
