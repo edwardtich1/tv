@@ -1,52 +1,155 @@
-#EXTM3U url-tvg="https://raw.githubusercontent.com/IPTVSHARED/iptv/refs/heads/main/epg_lite.xml.gz; https://raw.githubusercontent.com/IPTVSHARED/iptv/refs/heads/main/epg_lite_gabbarit.xml.gz"
-#EXTINF:-1 group-title="ТНТ4" tvg-logo="https://assets-iptv2022.cdnvideo.ru/static/channel/136/logo_256_1655448788.png", ТНТ4
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные",ТНТ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/variant.m3u8??
-#EXTINF:-1 group-title="ТНТ4" tvg-logo="http://i121.fastpic.org/big/2023/0104/13/3befecb5970b4f9aa1abd28ea7d38a13.png", ТНТ4 (+2)
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/variant.m3u8
+
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные",ТНТ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_2/variant.m3u8??
-#EXTINF:-1 group-title="ТНТ4" tvg-logo="http://i121.fastpic.org/big/2023/0106/41/cecdedb9cc3b8c97f5816cc0c8c71941.png", ТНТ4 (+4)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_4/variant.m3u8??
-#EXTINF:-1 group-title="ТНТ4" tvg-logo="http://i121.fastpic.org/big/2023/0106/6d/8d8b08197d18a91ddd4ef9105d514c6d.png", ТНТ4 (+7)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_7/variant.m3u8??
-#EXTINF:-1 group-title="ТНТ4" tvg-logo="http://i121.fastpic.org/big/2023/0104/13/3befecb5970b4f9aa1abd28ea7d38a13.png" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}", ТНТ4 (+2)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_2/variant.m3u8
-#EXTINF:-1 group-title="ТНТ4" tvg-logo="https://assets-iptv2022.cdnvideo.ru/static/channel/136/logo_256_1655448788.png", ТНТ4
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/variant.m3u8
+
+#EXTINF:-1 group-title="Развлекательные",ТНТ HD
+http://live-stream-20.ott.tricolor.tv/live/live/tnt_hd/hls_enc/tnt_hd.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0MzIxOTAwOTMzMTI2NyIsImV4cCI6MTc1NTUzNDU1MiwiaHdpZCI6IjYwZmI5ZjQ2OTVjNWEzMTc4Mjc5ZmUyNzY3YTQxMzE4ODMwNTYwZjJiMTc4ODQ2ZmQ4NjAzNmQxMzMzMTdjYWYiLCJsYXN0X3JlcV9kYXRlIjoxNzU0OTI5NzUyLCJzZXNzaW9uX2lkIjoiMmJkMDlhZmFiZjkxMWMzMGU0NWQ2ZDZjOGRjNWIyMTgiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.5Bbe9d-2az1QkGdVp1Velj3eIyZUZZ5hhFl87KBoLAA
+
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные",ТНТ4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/variant.m3u8
-#EXTINF:-1 group-title="ТНТ4" tvg-logo="http://i121.fastpic.org/big/2023/0106/41/cecdedb9cc3b8c97f5816cc0c8c71941.png", ТНТ4 (+4)
+
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТНТ (+2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_2/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТНТ (+4)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_4/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТНТ (+7)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_7/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТНТ4 (+2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_2/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТНТ4 (+4)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_4/variant.m3u8
-#EXTINF:-1 group-title="ТНТ4" tvg-logo="http://i121.fastpic.org/big/2023/0106/6d/8d8b08197d18a91ddd4ef9105d514c6d.png", ТНТ4 (+7)
+
+#EXTINF:-1 tvg-id="bst-bratsk" catchup="append" tvg-logo="https://iptvx.one/picons/bst-bratsk.png" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региoнальные",БСТ Братск
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_TNT_BR/variant.m3u8
+
+#EXTINF:-1 tvg-id="tnt4-pl2" catchup="append" tvg-logo="https://gl.weburg.net/00/fck/era-tvlogo.jpg" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Региoнальные",Эра-ТВ (Екатеринбург)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_TNT4_EKT/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные",ТНТ
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/variant.m3u8
+
+#EXTINF:-1 group-title="Развлекательные",ТНТ HD
+http://live-stream-20.ott.tricolor.tv/live/live/tnt_hd/hls_enc/tnt_hd.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0MzIxOTAwOTMzMTI2NyIsImV4cCI6MTc1NTUzNDU1MiwiaHdpZCI6IjYwZmI5ZjQ2OTVjNWEzMTc4Mjc5ZmUyNzY3YTQxMzE4ODMwNTYwZjJiMTc4ODQ2ZmQ4NjAzNmQxMzMzMTdjYWYiLCJsYXN0X3JlcV9kYXRlIjoxNzU0OTI5NzUyLCJzZXNzaW9uX2lkIjoiMmJkMDlhZmFiZjkxMWMzMGU0NWQ2ZDZjOGRjNWIyMTgiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.5Bbe9d-2az1QkGdVp1Velj3eIyZUZZ5hhFl87KBoLAA
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные",ТНТ4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТНТ (+2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_2/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТНТ (+4)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_4/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТНТ (+7)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_7/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТНТ4 (+2)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_2/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Федеральные плюс",ТНТ4 (+4)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_4/variant.m3u8
+
+#EXTINF:-1,ТНТ
+#EXTGRP:🇷🇺 РОССИЯ 🇷🇺
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/variant.m3u8??
+#---http://s18209.cdn.ngenix.net/hls/CH_R01_TNT/playlist.m3u8??SD
+#---http://dmi3y-tv.ru/hls/T2/CH_TNTHD.m3u8??HD
+
+#EXTINF:-1,ТНТ4
+#EXTGRP:РАЗВЛЕКАТЕЛЬНЫЕ
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/variant.m3u8??
+#EXTINF:-1,ТНТ4 (+2)
+#EXTGRP:РАЗВЛЕКАТЕЛЬНЫЕ
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_2/variant.m3u8??
+#---http://s25617.cdn.ngenix.net/mdrm/CH_TNT4_2/variant.m3u8??
+#EXTINF:-1,ТНТ4 (+4)
+#EXTGRP:РАЗВЛЕКАТЕЛЬНЫЕ
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_4/variant.m3u8??
+#---http://s25617.cdn.ngenix.net/mdrm/CH_TNT4_4/variant.m3u8??
+#EXTINF:-1,ТНТ4 (+7)
+#EXTGRP:РАЗВЛЕКАТЕЛЬНЫЕ
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_7/variant.m3u8??
+#---http://s25617.cdn.ngenix.net/mdrm/CH_TNT4_7/variant.m3u8??
+
+#EXTINF:-1,ТНТ
+#EXTGRP:ФЕДЕРАЛЬНЫЕ+
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/variant.m3u8
+#EXTINF:-1,ТНТ (+2)
+#EXTGRP:ФЕДЕРАЛЬНЫЕ+
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_2/variant.m3u8
+#EXTINF:-1,ТНТ (+4)
+#EXTGRP:ФЕДЕРАЛЬНЫЕ+
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_4/variant.m3u8
+#EXTINF:-1,ТНТ (+7)
+#EXTGRP:ФЕДЕРАЛЬНЫЕ+
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_7/variant.m3u8
+
+#EXTINF:-1,ТНТ4
+#EXTGRP:ФЕДЕРАЛЬНЫЕ+
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/variant.m3u8
+#EXTINF:-1,ТНТ4 (+2)
+#EXTGRP:ФЕДЕРАЛЬНЫЕ+
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_2/variant.m3u8
+#---http://s25617.cdn.ngenix.net/mdrm/CH_TNT4_2/variant.m3u8
+#EXTINF:-1,ТНТ4 (+4)
+#EXTGRP:ФЕДЕРАЛЬНЫЕ+
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_4/variant.m3u8
+#---http://s25617.cdn.ngenix.net/mdrm/CH_TNT4_4/variant.m3u8
+#EXTINF:-1,ТНТ4 (+7)
+#EXTGRP:ФЕДЕРАЛЬНЫЕ+
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_7/variant.m3u8
-#EXTINF:-1 group-title="ТНТ4" tvg-id="tnt4" tvg-logo="https://assets-iptv2022.cdnvideo.ru/static/channel/136/logo_256_1655448788.png", ТНТ4 HD
+#---http://s25617.cdn.ngenix.net/mdrm/CH_TNT4_7/variant.m3u8
+
+#EXTINF:-1 group-title="Lime TV" tvg-logo="https://assets-iptv2022.cdnvideo.ru/static/channel/136/logo_256_1655448788.png", ТНТ HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://sgw.ott.tricolor.tv/streamingGateway/GetLivePlayList?source=TNT4.m3u8&serviceArea=MSK-SA-1&drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0MzIxOTAwOTMzMTI2NyIsImV4cCI6MTc1MzY2OTIzMiwiaHdpZCI6IjYwZmI5ZjQ2OTVjNWEzMTc4Mjc5ZmUyNzY3YTQxMzE4ODMwNTYwZjJiMTc4ODQ2ZmQ4NjAzNmQxMzMzMTdjYWYiLCJsYXN0X3JlcV9kYXRlIjoxNzUzMDY0NDMyLCJzZXNzaW9uX2lkIjoiOWVhMThlNjgzNTUxYjNiNWVlN2NmODUyMDgxOTE1OTgiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.UrItlXueVDYEF_nJqKOWyvUWlExsKVhJaxFgSZbBGPg
-#EXTINF:-1 group-title="ТНТ" tvg-logo="https://assets-iptv2022.cdnvideo.ru/static/channel/136/logo_256_1655448788.png", ТНТ HD
+https://mhd128.iptv2022.com/p/a1MIA7sRqt9A0BlpBBvnsg,1754938623/streaming/tntott/324/1/tracks-v5a1/mono.m3u8
+
+#EXTINF:-1 group-title="Lime TV" tvg-logo="http://i121.fastpic.org/big/2023/0106/34/7013480a4f61404102f980b943171c34.png", ТНТ (+2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://mhd116.iptv2022.com/p/sF68ga06M0fF5zHnFpX1IQ,1753210594/streaming/tntott/324/1/tracks-v5a1/mono.m3u8
-#EXTINF:-1 group-title="ТНТ4" tvg-logo="http://i121.fastpic.org/big/2023/0106/41/cecdedb9cc3b8c97f5816cc0c8c71941.png", ТНТ (+4)
+https://mhd128.iptv2022.com/p/oZgqQSz_iZE8scUEIPaSfg,1754938624/streaming/tntplus2/324/1/tracks-v5a1/mono.m3u8
+
+#EXTINF:-1 group-title="Lime TV" tvg-logo="http://i121.fastpic.org/big/2023/0106/41/cecdedb9cc3b8c97f5816cc0c8c71941.png", ТНТ (+4)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://mhd116.iptv2022.com/p/uPwQbFZGXdFhZffaHgyd5w,1753210595/streaming/tntplus4/324/1/tracks-v5a1/mono.m3u8
-#EXTINF:-1 group-title="ТНТ" tvg-logo="http://i121.fastpic.org/big/2023/0106/6d/8d8b08197d18a91ddd4ef9105d514c6d.png", ТНТ (+7)
+https://mhd128.iptv2022.com/p/h9g5Ti8ULzXy8yQ7gNfSIQ,1754938624/streaming/tntplus4/324/1/tracks-v5a1/mono.m3u8
+
+#EXTINF:-1 group-title="Lime TV" tvg-logo="http://i121.fastpic.org/big/2023/0106/6d/8d8b08197d18a91ddd4ef9105d514c6d.png", ТНТ (+7)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://mhd116.iptv2022.com/p/Zd1M7tX6oJQ0KhPaeHcGaA,1753210595/streaming/tntplus7/324/1/tracks-v5a1/mono.m3u8
-#EXTINF:-1 group-title="ТНТ4" tvg-logo="http://i121.fastpic.org/big/2023/0104/13/3befecb5970b4f9aa1abd28ea7d38a13.png", ТНТ4 (+2)
+https://mhd128.iptv2022.com/p/vkPw4A8SHRgh0C0ncon7Gg,1754938624/streaming/tntplus7/324/1/tracks-v5a1/mono.m3u8
+
+#EXTINF:-1 group-title="Lime TV" tvg-logo="http://i121.fastpic.org/big/2023/0106/41/cecdedb9cc3b8c97f5816cc0c8c71941.png", ТНТ (+4)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://mhd116.iptv2022.com/p/pugeD4dMjOtrVYFKJAOzFg,1753210595/streaming/tnt4plus2/324/1/index.m3u8
-#EXTINF:-1 group-title="ТНТ4" tvg-logo="http://i121.fastpic.org/big/2023/0104/ba/48eac92f06f49be4561fad1acb8cd9ba.png", ТНТ4 (+4)
+https://mhd128.iptv2022.com/p/h9g5Ti8ULzXy8yQ7gNfSIQ,1754938624/streaming/tntplus4/324/1/tracks-v5a1/mono.m3u8
+#EXTINF:-1 group-title="Lime TV" tvg-logo="http://i121.fastpic.org/big/2023/0106/6d/8d8b08197d18a91ddd4ef9105d514c6d.png", ТНТ (+7)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://mhd116.iptv2022.com/p/DRDzzXsfetgEi63tekoNqg,1753210595/streaming/tnt4plus4/324/1/index.m3u8
-#EXTINF:-1 group-title="ТНТ4" tvg-logo="https://assets-iptv2022.cdnvideo.ru/static/channel/136/logo_256_1655448788.png", ТНТ4
+https://mhd128.iptv2022.com/p/vkPw4A8SHRgh0C0ncon7Gg,1754938624/streaming/tntplus7/324/1/tracks-v5a1/mono.m3u8
+#EXTINF:-1 group-title="Lime TV" tvg-logo="http://i121.fastpic.org/big/2023/0104/13/3befecb5970b4f9aa1abd28ea7d38a13.png", ТНТ4 (+2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://mhd116.iptv2022.com/p/FXCYVa1yywEbRvFj_6omIg,1753210598/streaming/tnt4ott/324/1/index.m3u8
-#EXTINF:-1 group-title="ТНТ" tvg-logo="https://assets-iptv2022.cdnvideo.ru/static/channel/136/logo_256_1655448788.png" catchup="append" catchup-days="7" catchup-source="&offset=${offset}", ТНТ HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-http://api.peers.tv/timeshift/tnt_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NTMyMTA3NjYsImlhdCI6MTc1MzEyNDM2NiwiY2lkIjo2LCJ1aWQiOjkzMTU5MTgyMiwicmVnIjpmYWxzZSwiaXAiOjM2NDgxMzc5OTUsImFkdWx0IjpmYWxzZX0.QL_4z_eFrIxOha5rP7xilvNaaxQHD6jK0u3bTFdlIyk&offset=10
-#EXTINF:-1 group-title="ТНТ" tvg-logo="https://assets-iptv2022.cdnvideo.ru/static/channel/136/logo_256_1655448788.png", ТНТ HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://livetv.mylifeisgood.net.ru/channels/tnthd.m3u8
+https://mhd128.iptv2022.com/p/m_iOqaxsAOKrgT_Qmwkxww,1754938624/streaming/tnt4plus2/324/1/index.m3u8
+
+
